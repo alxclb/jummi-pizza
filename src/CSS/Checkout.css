@@ -1,0 +1,71 @@
+@media (max-width: 768px) {
+  .chk_container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 20rem;
+    margin: auto;
+  }
+  .chk_cart_container{
+    /* margin:auto; */
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) {
+.chk_container {
+  width: 45rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+}
+.chk_cart_container>div{
+  margin-right: 0px;
+}
+.chk_section {
+  width: 20rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: column nowrap;
+  /* margin: auto; */
+}
+.chk_section div {
+  display: flex;
+  justify-content: space-between;
+}
+.chk_section span {
+  padding: 0.7rem;
+  width: 20rem;
+}
+.user_loc {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0.7rem;
+}
+.user_loc input {
+  height: 2rem;
+}
+.order_btn {
+  height: 4.05rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_btn button {
+  flex-basis: 80%;
+  height: 3rem;
+  border: none;
+  border: 1px solid rgba(122, 122, 122, 0.87);
+  border-radius: 3px;
+  background-color: rgb(2, 221, 2);
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+.back_link{
+  margin: auto;
+  margin-top: 20px;
+
+}

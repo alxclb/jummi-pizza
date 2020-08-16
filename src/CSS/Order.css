@@ -1,0 +1,14 @@
+.order_container{
+    width: 20rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.order_container .total_cost{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+    .order_container {
+    margin-left: 30px;
+    }
+  }
