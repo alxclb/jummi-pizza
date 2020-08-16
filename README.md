@@ -13,3 +13,5 @@ This project was built for practice purposes.
  
  Heroku: https://the-yummi-pizza-react-app.herokuapp.com/
  
+ On the start, connecting with the database (remotemysql.com) over API can be slow. 
+ 
