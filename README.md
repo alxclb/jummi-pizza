@@ -1,6 +1,6 @@
 
 
-# Yummi Pizza
+# Jummi Pizza
 
 Web application for ordering pizza.
 This project was built for practice purposes.
